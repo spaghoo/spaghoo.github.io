@@ -1,0 +1,190 @@
+<!doctype html>
+
+<!--
+    Filename: finalReleaseIndex.html
+    Written by: Lincoln Anderson
+    Purpose: final project form
+    Date: 12/08/18
+-->
+
+
+<html lang="en">
+    <head>
+
+        <title>Form Prototype</title>
+        <meta charset="utf-8">
+        <link href="theme/jquery-ui.css" rel="stylesheet">
+        <link href="finalRelease.css" rel="stylesheet" type="text/css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="theme/jquery-ui.js"></script>
+        <script src="finalRelease.js"></script>
+        <script src="validation/dist/jquery.validate.js"></script>
+
+    </head>
+
+    <body>
+
+        <div id="accordion">
+                <h3>Register for event</h3>
+
+                    <form id = "eventForm">
+
+
+                        <fieldset>
+
+                            <legend>Event Registration</legend>
+
+                            event name
+                            <input type = "text" name = "eventName" id="eventName" required autofocus>
+
+                            <p>Date: <input type="text" id="datepicker" name = "eventDate"></p>
+
+                            <div id="radioButtons">
+
+                                <input type = "radio" name = "eventType" id = "wedding" value=" Wedding">Wedding
+
+                                <input type = "radio" name = "eventType" id = "birthday" value=" Birthday">Birthday Party
+
+                                <input type = "radio" name = "eventType" id = "corporate" value=" Corporate Party">Corporate Party
+
+                                <input type = "radio" name = "eventType" id = "banquet" value=" Banquet">Banquet
+
+                                <input type = "radio" name = "eventType" id = "other" value=" Personal/Other">Personal Party/Other
+
+                            </div>
+
+                            <div id="checkBox">
+
+                                <br>
+
+                                <input type = "checkbox" name = "checkBoxOption1" id = "checkBox1" value = "dj">Using a DJ
+
+                                <input type = "checkbox" name = "checkBoxOption2" id = "checkBox2" value = "bar">Using a bar
+
+                                <input type = "checkbox" name = "checkBoxOption3" id = "checkBox3" value = "projectors">Using the projectors
+
+                            </div>
+
+                            <div class="slidecontainer">
+
+                                <br>
+
+                                <input type="range" min="10" max="600" value="100" class="slider" id="myRange">
+
+                                <p>People Attending: <span id="demo"></span></p>
+
+                            </div>
+
+                            <div class="ui-widget">
+
+                                <label for="autocomplete">table types: </label>
+
+                                <input id="autocomplete" name = "autocomplete">
+
+                            </div>
+
+                            <br>
+
+                            <div id = "userInfo">
+
+                                Tell us about you
+
+                                <br>
+
+                                Email:
+
+                                <input id = "userEmail" name = "userEmail" type ="email" value = "example@email.com">
+
+                                <br>
+
+                                Password:
+
+                                <input id = "userPassword" name = "userPassword" type = "password" value = "password">
+
+                                <br>
+
+                                Phone Number:
+
+                                <input id = "userPhone" name = "userPhone" type = "tel" value = "phone number">
+
+                            </div>
+
+                            <br>
+
+                            <fieldset id = "outputArea">
+
+                                Event Name:
+
+                                <div id = "eventNameOutput"></div>
+
+                                Event Date:
+
+                                <div id = "eventDateOutput"></div>
+
+                                Event Type:
+
+                                <div id = "eventTypeOutput"></div>
+
+                                Using a DJ:
+
+                                <div id = "checkBoxOutput1"></div>
+
+                                Using a bar:
+
+                                <div id = "checkBoxOutput2"></div>
+
+                                Using the projectors:
+
+                                <div id = "checkBoxOutput3"></div>
+
+                                People Attending:
+
+                                <div id = "sliderOutput"> </div>
+
+                                Table Types:
+
+                                <div id = "autocompleteOutput"> </div>
+
+                                Email:
+
+                                <div id = "emailOutput"> </div>
+
+                                password:
+
+                                <div id = "passwordOutput"> </div>
+
+                                Phone:
+
+                                <div id = "phoneOutput"> </div>
+
+                                Validation:
+
+                                <div id = "validationOutput"> </div>
+
+                            </fieldset>
+
+                        </fieldset>
+
+                        <button type = "submit" id = "buttonSubmit">Submit</button>
+
+                        <button type = "reset" id = "buttonReset">Reset</button>
+
+
+                    </form>
+                <h3>Information About Venue</h3>
+                <div>
+                    <p>Information about venue</p>
+
+                </div>
+
+
+
+
+
+
+    </div>
+    </body>
+
+
+
+</html>
