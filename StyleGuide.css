@@ -1,17 +1,25 @@
 body{
+    
     font-family: "Helvetica", sans-serif;
+    
     margin: 50px;
+    
     background-color: black;
+
 }
 
 #pageHeader{
+    
     color: white;
     
     
 }
 
 .mainPageText{
-    color:white
+    
+    color:white;
+    
+    
 }
 
 
