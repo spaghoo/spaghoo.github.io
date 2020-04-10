@@ -1,5 +1,17 @@
 body{
     font-family: "Helvetica", sans-serif;
     margin: 50px;
-    background-color: red;
+    background-color: black;
 }
+
+#pageHeader{
+    color: white;
+    
+    
+}
+
+.mainPageText{
+    color:white
+}
+
+
