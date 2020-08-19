@@ -8,7 +8,7 @@ body{
 
 #pageHeader{
     
-    color: mintcream;
+    color: white;
     
 }
 
@@ -32,6 +32,10 @@ body{
     
     padding: 10 px;
     
+}
+
+.grid-container {
+  display: grid;
 }
 
 
