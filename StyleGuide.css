@@ -1,37 +1,37 @@
 body{
-    
+
     font-family: "Helvetica", sans-serif;
-    
-    background-color: red;
+
+    background-color: black;
 
 }
 
 #pageHeader{
-    
+
     color: white;
-    
+
 }
 
 #headerName{
-    
+
     float: left;
-    
-    
+
+
 }
 
 #headerDescription{
-    
+
     float: right;
 }
 
 .mainPageText{
-    
+
     color:white;
-    
+
     margin: 10 px;
-    
+
     padding: 10 px;
-    
+
 }
 
 .grid-container {
