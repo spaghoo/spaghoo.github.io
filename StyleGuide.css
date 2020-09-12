@@ -6,6 +6,11 @@ body{
 
 }
 
+.headerBar {
+  overflow: hidden;
+  background-color: #333;
+}
+
 #pageHeader{
 
     color: white;
