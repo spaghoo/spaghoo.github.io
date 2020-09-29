@@ -3,7 +3,7 @@ body{
     font-family: "Helvetica", sans-serif;
 
     background-color: black;
-	
+
 	color: #fffdee;
 
 }
@@ -30,4 +30,37 @@ body{
 .topnav a.active {
   background-color: #fffdee;
   color: black;
+}
+
+.topnavWT {
+  overflow: hidden;
+  background-color: #000;
+}
+
+.topnavWT a {
+  float: left;
+  color: #40cac6;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnavWT a:hover {
+  background-color: #40cac6;
+  color: black;
+}
+
+.topnavWT a.active {
+  background-color: #40cac6;
+  color: black;
+}
+
+.AppLink {
+  color: #fffdee;
+
+  text-decoration: none;
+
+
+
 }
