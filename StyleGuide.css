@@ -4,7 +4,7 @@ body{
 
     background-color: black;
 	
-	color: #fffdd0;
+	color: #fffdee;
 
 }
 
@@ -15,7 +15,7 @@ body{
 
 .topnav a {
   float: left;
-  color: #fffdd0;
+  color: #fffdee;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -23,11 +23,11 @@ body{
 }
 
 .topnav a:hover {
-  background-color: #fffdd0;
+  background-color: #fffdee;
   color: black;
 }
 
 .topnav a.active {
-  background-color: #fffdd0;
+  background-color: #fffdee;
   color: black;
 }
